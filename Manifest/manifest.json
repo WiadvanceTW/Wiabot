@@ -1,0 +1,35 @@
+{
+    "$schema":"https://developer.microsoft.com/en-us/json-schemas/teams/v1.14/MicrosoftTeams.schema.json",
+    "version":"1.0.0",
+    "manifestVersion":"1.14",
+    "id":"<teams application id>",
+    "packageName":"com.package.name",
+    "name":{
+        "short":"<app name short>",
+        "full":"<app name full>"
+    },
+    "developer":{
+        "name":"<developer name>",
+        "mpnId":"",
+        "websiteUrl":"<website url>",
+        "privacyUrl":"<privacy url>",
+        "termsOfUseUrl":"<terms of use url>"
+    },
+    "description":{
+        "short":"<app description short>",
+        "full":"<app description full>"
+    },
+    "icons":{
+        "outline":"outline.png",
+        "color":"color.png"
+    },
+    "accentColor":"#FFFFFF",
+    "staticTabs":[
+        {"entityId":"conversations","scopes":["personal"]},
+        {"entityId":"about","scopes":["personal"]}
+    ],
+    "bots":[
+        {"botId":"<bot id>","scopes":["personal","team","groupchat"],"isNotificationOnly":false,"supportsCalling":false,"supportsVideo":false,"supportsFiles":false}
+    ],
+    "validDomains":[]
+}

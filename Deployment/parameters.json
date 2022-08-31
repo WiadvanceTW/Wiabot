@@ -1,0 +1,94 @@
+{
+    "subscriptionId": {
+      "Value": "<<value>>",
+      "Description": "Azure Subscription ID. All resources in an Azure subscription are billed together."
+    },
+    "subscriptionTenantId": {
+      "Value": "<<value>>",
+      "Description": "Id of the tenant to deploy to (If you are not sure how to get Tenant ID, please check Azure Active Directory in Azure Portal. Under Manage, click Properties. The tenant ID is shown in the Directory ID box). e.g 98f3ece2-3a5a-428b-aa4f-4c41b3f6eef0. Tenant ID is also in the \"Overview\" section\""
+    },
+    "resourceGroupName": {
+      "Value": "<<value>>",
+      "Description": "Resource Group"
+    },
+    "location": {
+      "Value": "<<value>>",
+      "Description": "The Azure region that's right for you and your customers. Not every resource is available in every region."
+    },
+    "appName": {
+      "Value": "<<value>>",
+      "Description": "The app name to use for the resources that will be provisioned."
+    },
+    "botId": {
+      "Value": "<<value>>",
+      "Description": "The Microsoft Application ID for the bot, e.g., 123e4567-e89b-12d3-a456-426655440000."
+    },
+    "botSku": {
+      "Value": "<<value>>",
+      "Description": "The pricing tier of the Bot Service Registration. Acceptable values are F0 and S1."
+    },
+    "newAppServicePlanName": {
+      "Value": "<<value>>",
+      "Description": "The name of the App Service Plan."
+    },
+    "newAppServicePlanLocation": {
+      "Value": "<<value>>",
+      "Description": "The location of the App Service Plan. Defaults to \"eastasia\"."
+    },
+    "newWebAppName": {
+      "Value": "<<value>>",
+      "Description": "The globally unique name of the Web App."
+    },
+    "mysqlHost": {
+      "Value": "<<value>>",
+      "Description": "MySQL Host."
+    }, 
+    "mysqlUsername": {
+      "Value": "<<value>>",
+      "Description": "MySQL Username."
+    },
+    "mysqlPassword": {
+      "Value": "<<value>>",
+      "Description": "MySQL Password."
+    },
+    "mysqlDatabase": {
+      "Value": "<<value>>",
+      "Description": "MySQL Database."
+    },
+    "mysqlPort": {
+      "Value": "<<value>>",
+      "Description": "MySQL Port."
+    },
+    "developerName": {
+      "Value": "<<value>>",
+      "Description": "The display name for the company."
+    },
+    "websiteUrl": {
+      "Value": "<<value>>",
+      "Description": "The https:// URL to the company's website. This link should take users to your company or product-specific landing page."
+    },
+    "privacyUrl": {
+      "Value": "<<value>>",
+      "Description": "The https:// URL to the company's privacy policy."
+    },
+    "termsOfUseUrl": {
+      "Value": "<<value>>",
+      "Description": "The https:// URL to the company's terms of use."
+    },
+    "appNameShort": {
+      "Value": "<<value>>",
+      "Description": "The app short name."
+    },
+    "appNameFull": {
+      "Value": "<<value>>t",
+      "Description": "The app full name."
+    },
+    "appDescriptionShort": {
+      "Value": "<<value>>",
+      "Description": "The app description short name."
+    },
+    "appDescriptionFull": {
+      "Value": "<<value>>",
+      "Description": "The app description full name."
+    }
+  }
